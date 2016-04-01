@@ -4,6 +4,7 @@ A counselling jam facilitator application
 A counselling session facilitation application for web and mobile platforms.
 
 ### Main features:
++ openauth integration
 + channels
 + public chat sessions
 + private chat sessions
@@ -23,7 +24,6 @@ A counselling session facilitation application for web and mobile platforms.
 + billing
 + analytics
 + payment integration
-+ openauth integration
 + facebook integration
 + aura painter
 + automated counselling
@@ -32,9 +32,10 @@ A counselling session facilitation application for web and mobile platforms.
 + + astrology readings
 
 Todo:
++ openauth integration
 + Design all main features
 + rough/highlevel design for seconadry features
-
++ find backend support / resource
 
 
 ### The MIT License (MIT)
