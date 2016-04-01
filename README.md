@@ -22,6 +22,7 @@ A counselling session facilitation application for web and mobile platforms.
 + video chat
 + photo uploader / cam snap
 + billing
++ store
 + analytics
 + payment integration
 + facebook integration
