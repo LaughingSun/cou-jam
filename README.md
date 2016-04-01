@@ -34,7 +34,8 @@ A counselling session facilitation application for web and mobile platforms.
 
 Todo:
 + openauth integration
-+ Design all main features
++ design all main features
++ initial / placeholder artwork
 + rough/highlevel design for seconadry features
 + find backend support / resource
 
