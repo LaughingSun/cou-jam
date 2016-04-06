@@ -1,13 +1,20 @@
 === user data
 
-<user-key>        := 'login=' ( <login> | <3rd-party-code> <3rd-party-id> )
+<user-key>        := <login> | <3rd-party-code> <3rd-party-id>
 
-<3rd-party-code>  := <unicode-char>{2}
+<login>           := 'email:' <email> | 'tel:' <intl-phone>
+
+<3rd-party-code>  := <utc16-char>{2}
 
 <3rd-party-id>    := <ascii-char>{128}
 
-<login>           := <email> | <intl-phone>
+<user-id>         := 'uid:' <base64-digit>{32}
 
-<user-id>         := <base64-digit>{32}
+<user-record>     := <user-id> <user-nick> <cdate> <private-key>
 
-<user-record>     := <user-id> <user-nick> <cdate> <pepper>
+<room-id>         := 'rid:' <base64-digit>{32}
+
+<room-record>     := <room-id> <owner-uid> <room-name> <cdate>
+
+<room-user-index> := <room-id> ( '+' <user-id ){0,}
+
