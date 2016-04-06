@@ -1,4 +1,4 @@
-=== user data
+= user data
 
 <user-key>        := <login> | <3rd-party-code> <3rd-party-id>
 
@@ -18,3 +18,4 @@
 
 <room-user-index> := <room-id> ( '+' <user-id ){0,}
 
+<key-user-index>  := <user-key> ( '+' <user-id ){0,}
